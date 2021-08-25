@@ -1,4 +1,5 @@
 import csv
+import random
 
 TRUTHVALUE = 'Y'
 
@@ -36,6 +37,8 @@ for i in range(l):
 #   for y in x:
 #     print(y[0])
 #   print()
+for x in tierList:
+  random.shuffle(x)
 teamList = []
 for i in range(l):
   teamList.append([])
